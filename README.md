@@ -73,7 +73,6 @@ Uncaught ReferenceError: order is not defined
 - $input 뒤에 .value를 붙이니 정상적으로 작동
 ```
 
-
 <br><br><br><br><br>
 
 ---
@@ -87,10 +86,26 @@ keyboardEvent.keyCode 함수 사용
 2. 글자수를 지정하는 기능
 3. CSS 기능 추가
 
-
 <br><br><br>
 
 ---
 # 완성 사진
 
 ![끝말잇기](/word-relay.png)
+
+<br><br><br>
+
+---
+# 새로 배운 것
+
+- 배경에 그라데이션 넣기(linear-gradient)
+
+<br><br><br>
+
+---
+
+# 프로젝트 회고
+
+```
+기본기에 대한 집착 때문인지 이론 공부에 집중하며 정작 실전 코딩에 대한 자신감은 부족했는데, 책에서 본 미니 프로젝트를 직접 만들고 응용해 내 것으로 만들어보니 이론을 공부 할 때보다 훨씬 즐겁고 자신감이 생기는 느낌이었다.
+```

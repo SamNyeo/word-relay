@@ -1,3 +1,5 @@
+# 표준 버전
+
 ## HTML
 ```
 - 참가자들 순서를 표시되는 부분
@@ -76,7 +78,11 @@ Uncaught ReferenceError: order is not defined
 
 ---
 
-# 응용하기
+# 응용 버전
 
 1. *onClick*시 *Enter*키로 동작하는 기능
+```
+keyboardEvent.keyCode 함수 사용
+```
 2. 글자수를 지정하는 기능
+3. CSS 기능 추가

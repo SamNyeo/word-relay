@@ -1,3 +1,5 @@
+'use strict'
+
 const number = Number(prompt('참가자 수를 입력하세요'));
 const $order = document.querySelector('.order')
 const $words = document.querySelector('.words')
@@ -9,13 +11,18 @@ let newWord = '';
 const onInput = (event) => {
   newWord = event.target.value;
 }
+const onEnter = (event) => {
+  if (event.keyCode == 13) {
+    onClickButton()
+  }
+}
 
 const onClickButton = () => {
   if (!$input.value) { // input에 입력해야만 순서가 넘어감
     alert('단어를 입력하세요.')
     return;
   }
-  if (!word || word[word.length - 1] === newWord[0]) {
+  if ((!word || word[word.length - 1] === newWord[0]) && newWord.length == 3) {
     // 제시어가 없거나 올바른 단어를 입력하였는지 판단
     word = newWord;
     $words.textContent = word;
@@ -35,4 +42,5 @@ const onClickButton = () => {
 }
 
 $input.addEventListener('input', onInput)
+$input.addEventListener('keydown', onEnter)
 $button.addEventListener('click', onClickButton)

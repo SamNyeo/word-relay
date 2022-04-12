@@ -92,5 +92,5 @@ keyboardEvent.keyCode 함수 사용
 
 ---
 # 완성 사진
----
+
 ![끝말잇기](/word-relay.png)

@@ -1,6 +1,6 @@
 'use strict'
 
-const number = Number(prompt('참가자 수를 입력하세요'));
+// const number = Number(prompt('참가자 수를 입력하세요'));
 const $order = document.querySelector('.order')
 const $words = document.querySelector('.words')
 const $input = document.querySelector('input')

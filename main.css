@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom right, #f7786b, #deeaee);
+  color: #FFF;
+  font-family: 'Jua', 'sans-serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry, .current-word {
+  margin-bottom: 10px;
+}
+
+.current-word {
+  font-size: 25px;
+}
+
+input {
+  outline: none;
+  border: none;
+  height: 25px;
+  width: 200px;
+  margin-right: 8px;
+}
+
+button {
+  width: 40px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7786b;
+  color: #FFF;
+  cursor: pointer;
+}

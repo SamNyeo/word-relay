@@ -86,3 +86,11 @@ keyboardEvent.keyCode 함수 사용
 ```
 2. 글자수를 지정하는 기능
 3. CSS 기능 추가
+
+
+<br><br><br>
+
+---
+# 완성 사진
+---
+![끝말잇기](/word-relay.png)
